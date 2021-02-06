@@ -8,55 +8,37 @@ using static System.Console;
 
 namespace DemoJobs
 {
-    class Jobs
+    class Program
     {
-        public double total;
-        private string description;
-        private double duration;
-        private double fee;
-        public double Duration { get; set; }
-        public double Fee { get; set; }
-
-        public string Description
-        {
-            get
-            {
-                return description;
-            }
-            set
-            {
-                //change these to the real descriptions
-                if (value == "description" || value == "description" || value == "description")
-                    description = value;
-                else
-                    WriteLine("I'm sorry, Harold's Home Service currently does not offer that service.");
-            }
-        }
-
-     //   public double Total
-     //   {
-     //      get
-     //       {
-     //           return total;
-     //       }
-     //       set
-     //       {
-     //           total = duration * fee;
-     //       }
-     //   }
-
-        public Jobs(string jobDescription, double jobDuration, double jobFee, double jobTotal)
-        {
-            description = jobDescription;
-            duration = jobDuration;
-            fee = jobFee;
-            total = jobTotal;
-        }
-
         static void Main(string[] args)
         {
-
-            ReadLine();
+            Jobs job1 = new Jobs("Carpet Cleaning Package", 4, 100);
+            Jobs job2 = new Jobs("Washing Windows Package", 2.5m, 50);
+            Jobs job3 = new Jobs("Lawn Care Package", 3, 75);
+            Jobs job4 = new Jobs("House Cleaning Package", 2, 60);
+        }
+    }
+    class Jobs
+    {
+        public string Description { get; set; }
+        public decimal Duration { get; set; }
+        public decimal Fee { get; set; }
+        public decimal Total
+        {
+            get { return Duration * Fee; }
+        }
+        public Jobs(string jobDescription, decimal jobDuration, decimal jobFee)
+        {
+            Description = jobDescription;
+            Duration = jobDuration;
+            Fee = jobFee;
+        }
+        public static Jobs operator+(Jobs job1, Jobs job2)
+        {
+            Jobs multiJob = new Jobs(job1.Description + " and " + job2.Description,
+                job1.Duration + job2.Duration,
+                (job1.Fee + job2.Fee) / 2);
+            return multiJob;
         }
     }
 }

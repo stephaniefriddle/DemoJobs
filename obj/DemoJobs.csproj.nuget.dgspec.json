@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stephanie\\Desktop\\CSC242\\Assignment 5.1\\DemoJobs\\DemoJobs.csproj": {}
+    "C:\\Users\\steph\\Source\\Repos\\DemoJobs\\DemoJobs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stephanie\\Desktop\\CSC242\\Assignment 5.1\\DemoJobs\\DemoJobs.csproj": {
+    "C:\\Users\\steph\\Source\\Repos\\DemoJobs\\DemoJobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stephanie\\Desktop\\CSC242\\Assignment 5.1\\DemoJobs\\DemoJobs.csproj",
+        "projectUniqueName": "C:\\Users\\steph\\Source\\Repos\\DemoJobs\\DemoJobs.csproj",
         "projectName": "DemoJobs",
-        "projectPath": "C:\\Users\\Stephanie\\Desktop\\CSC242\\Assignment 5.1\\DemoJobs\\DemoJobs.csproj",
-        "packagesPath": "C:\\Users\\Stephanie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stephanie\\Desktop\\CSC242\\Assignment 5.1\\DemoJobs\\obj\\",
+        "projectPath": "C:\\Users\\steph\\Source\\Repos\\DemoJobs\\DemoJobs.csproj",
+        "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\steph\\Source\\Repos\\DemoJobs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Stephanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
