@@ -1,0 +1,13 @@
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.exe
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.deps.json
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.runtimeconfig.json
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.runtimeconfig.dev.json
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.dll
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\bin\Debug\netcoreapp3.1\DemoJobs.pdb
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.csprojAssemblyReference.cache
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.AssemblyInfoInputs.cache
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.AssemblyInfo.cs
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.csproj.CoreCompileInputs.cache
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.dll
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.pdb
+C:\Users\Stephanie\Desktop\CSC242\New folder\DemoJobs\obj\Debug\netcoreapp3.1\DemoJobs.genruntimeconfig.cache
